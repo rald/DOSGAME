@@ -1,0 +1,19 @@
+GL2D_Color sweetie[] = { /* Sweetie-16 Color Palette By GrafxKid */
+	{   6,   7,  11}, /*  0 - Dark        */
+	{  10,  13,  27}, /*  1 - Dark Blue   */
+	{  23,   9,  23}, /*  2 - Purple      */
+	{  14,  23,  50}, /*  3 - Blue        */
+	{  44,  15,  20}, /*  4 - Red         */
+	{  16,  41,  61}, /*  5 - Light Blue  */
+	{  59,  31,  21}, /*  6 - Orange      */
+	{  28,  59,  61}, /*  7 - Cyan        */
+	{  63,  51,  29}, /*  8 - Yellow      */
+	{  61,  61,  61}, /*  9 - White       */
+	{  41,  60,  28}, /* 10 - Light Green */
+	{  37,  44,  48}, /* 11 - Gray Blue   */
+	{  14,  45,  25}, /* 12 - Green       */
+	{  21,  27,  33}, /* 13 - Dark Gray   */
+	{   9,  28,  30}, /* 14 - Teal        */
+	{  12,  15,  21}  /* 15 - Darker Gray */
+};
+

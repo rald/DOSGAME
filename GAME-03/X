@@ -1,0 +1,2 @@
+Canvas *Canvas_Load(char *fn);
+void Canvas_Draw(byte *srf,Canvas *canvas,int f,int x,int y)

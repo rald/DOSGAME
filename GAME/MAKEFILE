@@ -1,0 +1,10 @@
+CC=tcc
+FLAGS=-G -O -Z -egame -ml
+
+game.exe: main.c gl2d.c canvas.c font.c music.c
+	$(CC) $(FLAGS) main.c gl2d.c canvas.c font.c music.c
+
+clean:
+	del game.exe
+
+
