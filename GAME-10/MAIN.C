@@ -67,10 +67,6 @@ int main(void) {
 		Font_DrawText(buf,fontCanvas,"TEST KEYBOARD SIMULTANEOUS ARROW KEYS\nMOUSE MOTION AND LEFT MOUSE BUTTON",0,0);
 
 		if(GL2D_GetMousePress(GL2D_BUTTON_LEFT)) {
-			if (!mouse.button1) {
-				/* The button was just pressed down this frame */
-        Music_PlayLaser(); 
-	    }			
 			mouse.button1=1;
 		}
 
