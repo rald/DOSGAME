@@ -78,16 +78,18 @@ void Music_Update(void) {
     }
 
     /* 2. Background Track Updates */
-    if (current_tick != last_tick) {
+		if (current_tick != last_tick) {
+				Note n;
+
         last_tick = current_tick;
-        
+
         if (note_timer > 0) {
             note_timer--;
             return;
         }
 
-        Note n = birthday_song[current_note_idx];
-        
+				n = birthday_song[current_note_idx];
+
         if (n.duration == 16 && n.note == 0) {
             current_note_idx = 0;
             n = birthday_song[0];
